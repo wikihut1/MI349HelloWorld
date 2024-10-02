@@ -3,29 +3,45 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/style.css"/>
+        <link rel="stylesheet" href="./style.css"/>
     </head>
-    <body>
-        <h1>HelloWorld</h1>
-        <img src="images/computer.png" alt="Vintage Mac">
-        <section>
-            <h2>History</h2>
-            <p>Test programs have always existed in software development, but the tradition of using "Hello, World!" as a test message was influenced by an example program in the 1978 book The C Programming Language. The example was taken from a 1974 Bell Laboratories internal memorandum by Brian Kernighan, one of the co-creators of the Unix operating system.</p>
-        </section>
-        <section>
-            <h2>Example</h2>
-            <p>Here is a JavaScript example:</p>
-            <code>
-                &lt;!DOCTYPE HTML&gt;
-                &lt;html&gt;
-                    &lt;body&gt;
-                        &lt;script&gt;
-                        alert('Hello, world!');
-                        &lt;/script&gt;
-                    &lt;/body&gt;
-                &lt;/html&gt;
-            </code>
-        </section>
+    <body style="background: #fff; font-family: Helvetica, sans-serif; border-top: 15px solid #424242; margin: 0 auto;">
+        <main style="margin: 0 auto; width: 800px;">
+            <h1>HelloWorld</h1>
+            <img src="images/computer.png" alt="Vintage Mac" style="width:100%; border-radius: 20px;">
+            <div class="details" style="display: flex; gap: 25px;">
+                <section style="
+                flex-grow: 1;
+                flex-basis: 0;
+                background: #eee;
+                padding: 25px;
+                border-radius: 20px;
+                margin-top: 25px;">
+                    <h2 style="margin: 0 0 10px 0;">History</h2>
+                    <p style="margin:0; line-height: 1.4em;">Test programs have always existed in software development, but the tradition of using "Hello, World!" as a test message was influenced by an example program in the 1978 book The C Programming Language. The example was taken from a 1974 Bell Laboratories internal memorandum by Brian Kernighan, one of the co-creators of the Unix operating system.</p>
+                </section>
+                <section style="
+                flex-grow: 1;
+                flex-basis: 0;
+                background: #eee;
+                padding: 25px;
+                border-radius: 20px;
+                margin-top: 25px;">
+                    <h2 style="margin: 0 0 10px 0;">Example</h2>
+                    <p style="margin:0;">Here is a JavaScript example:</p>
+                    <code>
+                        &lt;!DOCTYPE HTML&gt;
+                        &lt;html&gt;
+                            &lt;body&gt;
+                                &lt;script&gt;
+                                alert('Hello, world!');
+                                &lt;/script&gt;
+                            &lt;/body&gt;
+                        &lt;/html&gt;
+                    </code>
+                </section>
+            </div>
+        </main>
         <!-- <script src="index.js"></script> -->
     </body>
 </html>
